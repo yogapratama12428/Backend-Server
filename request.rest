@@ -1,0 +1,24 @@
+### 
+POST http://localhost:5000/signup
+Content-Type:  application/json
+
+{
+    "email": "khaulah@gmail.com",
+    "password": "testasd",
+    "username": "yoga"
+}
+
+###
+POST http://localhost:5000/signin
+Content-Type:  application/json
+
+{
+    "email": "khaulah@gmail.com",
+    "password": "testasd"
+}
+
+###
+GET http://localhost:5000/user/info
+
+### 
+DELETE http://localhost:5000/signout
